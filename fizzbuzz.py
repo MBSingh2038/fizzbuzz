@@ -13,3 +13,19 @@ for num in range(1, 101):
     else:
         print(num)
 
+"""
+Pattern from 1 to upto the user choice
+
+choice = int(input("How many patterns:- "))
+
+for num in range(1, choice+1):
+    if(num%5==0 and num%3==0):
+        print("FizzBuzz")
+    elif(num%5==0):
+        print("Buzz")
+    elif(num%3==0):
+        print("Fizz")
+    else:
+        print(num)
+
+"""
